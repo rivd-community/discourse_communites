@@ -1,4 +1,16 @@
-TODO_plugin_name:
-  plugin_name_enabled:
-    default: false
-    client: true
+custom_category_creator_enabled:
+  default: false
+  client: true
+
+allowed_groups:
+  default: "trust_level_0"
+  client: true
+  type: list
+  list_type: group
+  choices:
+    - trust_level_0
+    - trust_level_1
+    - trust_level_2
+    - trust_level_3
+    - trust_level_4
+  locale: settings.allowed_groups_description
