@@ -1,1 +1,3 @@
 en:
+  settings:
+    allowed_groups_description: "Select groups that are allowed to create categories."
